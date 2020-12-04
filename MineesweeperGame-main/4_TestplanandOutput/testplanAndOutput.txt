@@ -1,0 +1,16 @@
+Test Plan:
+1 The input consists of an arbitrary number of fields.
+2 The first line of input contains an integer which stands for the level of the game i.e., beginner, intermediate, expert and custom input. 
+3 The second line of each field contains two integers n and m which stands for the number of rows and columns of the field respectively.
+4 Each safe square is represented by an “_” character (without the quotes) and each mine square is represented by an “*” character (also without the quotes). 
+5 The first field line where n = m = 0 represents the end of input and should not be processed.
+
+Test Cases:
+1.If the player collects all the mines present within the grid.
+Game Win.
+2.If the player got mine in grid.
+You Lost.
+
+Expected Results:
+1 If a player completes the game by finding all the mines then display with a message called “Game Win” 
+2 If a player find the Mine in game then display with a message called “You lost” and all squares are revealed.
